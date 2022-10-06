@@ -1,0 +1,69 @@
+.container{
+    padding-right: 475px;
+}
+.main-left{
+    width: 65%;
+    height: 1200px;
+}
+.content-list{
+    margin-bottom: 15px;
+}
+.content-list .item{
+    width: 750px;
+    display: flex;   
+    border-radius: 5px;
+    background-color: rgb(251, 252, 252);
+    padding: 10px;
+}
+.item img{
+    width: 400px;   
+    height: 150px; 
+}
+.book{
+    margin: 3px 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.book a{
+    text-decoration: none;
+}
+.book a:hover{
+    color: #04866c;
+}
+.book h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.book p{
+    font-size: 15px;
+    padding: 5px 0px;
+}
+
+.main-right{
+    border: none;
+    margin-top: 20px;
+    width: 30%;
+    height: 1000px;
+    margin-right: 10px;
+}
+.sort{
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+.list-item{
+    background-color: rgb(251, 252, 252);
+    margin: 10px 0px;
+    border-radius: 5px;
+    height: 100px;
+}
+.list-item img{
+    width: 120px;
+    height: 80px;
+}
+.sort2{
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}

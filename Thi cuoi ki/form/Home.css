@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ebebec;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    background-color: #cbcbcb ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.nav-menu{
+    overflow: auto;
+    list-style-type: none;
+    color: hsla(0,0%,100%,.9);
+}
+.nav-menu ul{
+    margin-bottom: 0px;
+}
+.nav-menu li {
+    float: left;
+    margin-right: 10px;
+    border-right: 1px solid #DDD;
+    padding: 10px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: rgb(11, 10, 10);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu li:hover{
+    background: #00b591;
+    cursor: pointer;
+    color: whitesmoke; 
+    border-radius: 5px;
+}
+.nav-menu li:hover a{
+    color: rgb(243, 244, 249);
+}
+.nav-menu li:first-child{
+    padding-left: 0;
+}
+.nav-menu li:first-child:hover{
+    background:#cbcbcb ;
+}
+.nav-menu li a img{
+    border-radius: 5px;
+    margin-bottom: -5px;
+}
+
+.front-search{
+    background-color: rgb(168, 139, 139);
+    margin-right: 100px;
+    border-radius: 15px;
+    border: none;
+}
+.search{
+    width: 175px;
+    height: 25px;
+    border-radius: 15px;
+    border: none ;
+    background-color: rgb(168, 139, 139);
+    padding-top: 5px;
+}
+input[type=text] {
+    outline: none;
+    color: rgb(13, 12, 12);
+    padding-left: 10px;
+    
+}
+::placeholder{
+    color: rgb(11, 10, 10);
+    font-size: 15px;
+}
+.nav-search {
+    border-radius: 15px;
+    color: rgb(30, 31, 32);
+    border: none;
+    margin-left: 5px;
+}
+.icon-search{
+    color: rgb(29, 30, 31);
+    padding: 5px;
+    border: none;
+}
+.banner{
+    margin: auto;
+    padding-left: 22px;
+    width: 78%;
+    height: auto;
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 49.5px;
+}
+.main{
+    margin: auto ;
+    height: 1200px;
+    width: auto;
+    max-width: 80%;
+    padding: 10px;
+    
+}
+.main-left{
+    overflow: hidden;
+    float: left;
+    max-width: 70%;
+    margin-left: 30px;
+}
+.hot-content{
+    display: flex;
+    justify-content: left; 
+    margin-bottom: 15px;
+}
+.top-content{
+    position: relative;
+}
+.top-content .icon-slide{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+}
+.top-content .icon-slide button{
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.top-content .icon-slide button:first-child{
+    background-color: #00b591;
+}
+.top-content .icon-slide button:last-child{
+    background-color: #bbbbbb;
+}
+.content-1{
+    overflow: auto;
+    list-style-type: none;
+    color: hsla(0,0%,100%,.9);
+}
+.content-1 li{
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #DDD;
+    padding: 5px 10px;
+
+}
+.content-1 li a{
+    text-decoration: none;
+    color: rgb(11, 10, 10);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.content-1 li:hover a{
+    color: rgb(3, 150, 3);
+}
+#top{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600 ;
+    background: rgba(78, 78, 78, 0.8);
+}
+.content-1 li i{
+    color: #f0bc00;
+}
+.content-list{
+    display: flex;
+    transition: all 0.5s ease;
+    /* flex-wrap: wrap; */
+    margin-bottom: 40px;    
+}
+
+.new-content{
+    display: flex;
+    justify-content: left; 
+    margin-bottom: 15px;
+}
+.content-2{
+    overflow: auto;
+    list-style-type: none;
+    color: hsla(0,0%,100%,.9);
+}
+.content-2 li{
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #DDD;
+    padding: 5px 10px;
+}
+.content-list-2{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 40px;
+}
+
+.item{
+    margin: 0 20px 0 0; 
+    position: relative;
+}
+
+.item .img-item1{
+    background-image: url("https://i.docln.net/lightnovel/covers/b17198-170f23c9-a0ae-4d24-afb1-48dd413a9568-m.jpg");
+    
+}
+.item .img-item2{
+    background-image: url("https://i.docln.net/lightnovel/covers/b897-c9e6f027-a203-4390-98f3-452ad667365a-m.jpg");
+    
+}
+.item .img-item3{
+    background-image: url("https://i.docln.net/lightnovel/covers/b13279-cd1e0d2b-3779-4713-b1e7-44203e1753a4-m.jpg");
+    
+}
+.item .img-item4{
+    background-image: url("https://i.docln.net/lightnovel/covers/b11180-8b3491ce-61f5-4f6d-99a2-36636315835a-m.jpg");
+    
+}
+.item .hot-item{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 190px;
+    height: 250px;
+}
+.item .img-item5{
+    background-image: url("https://i.docln.net/lightnovel/covers/s6046-03d69fc1-c4a1-4ff2-a801-5f5b4eef91f9-m.jpg");
+    
+}
+.item .img-item6{
+    background-image: url("https://i.docln.net/lightnovel/covers/b13807-3695b5f4-9632-47f6-b505-f275b561cb73-m.jpg");
+    
+}
+.item .img-item7{
+    background-image: url("https://i.docln.net/lightnovel/covers/b16403-483e2571-df43-4356-973d-97b148b6e3e8-m.jpg");
+    
+}
+.item .img-item8{
+    background-image: url("https://i.docln.net/lightnovel/covers/s6596-72a48097-1e6a-4c80-9791-c75e18e7ca61-m.jpg");
+    
+}
+.item .img-item9{
+    background-image: url("https://i.docln.net/lightnovel/covers/s12058-a9f6d3a7-1c83-4e68-bacf-feaa8e7339f2-m.jpg");
+    
+}
+.item .img-item10{
+    background-image: url("https://i.docln.net/lightnovel/covers/b12805-4de8c453-95f7-48c7-86a0-15149a0862e2-m.jpg");
+    
+}
+.item .img-item11{
+    background-image: url("https://i.docln.net/lightnovel/covers/s5999-09722c94-cb26-4d6d-b8a4-b042ed0ac965-m.jpg");
+    
+}
+.item .img-item12{
+    background-image: url("https://i.docln.net/lightnovel/covers/b16851-459ef229-22f1-4b11-a27a-43348c3dc7f0-m.jpg");
+    
+}
+.item .img-item13{
+    background-image: url("	https://i.docln.net/lightnovel/covers/s8239-bee50afc-50a2-4779-b2fb-5bf3ab78eeb0-m.jpg");
+    
+}
+.item .img-item14{
+    background-image: url("https://4.bp.blogspot.com/--wiNkaRR1lQ/WO26lDMkJ4I/AAAAAAAALK4/HwmQXKUbE2M/w215/book_896.jpg");
+    
+}
+.item .img-item15{
+    background-image: url("https://i.docln.net/lightnovel/covers/b2929-d0e65d81-ed59-45c0-9543-9570da2ad132-m.jpg");
+    
+}
+.item .img-item16{
+    background-image: url("https://i.docln.net/lightnovel/covers/s12020-3e01b3c9-d644-4bca-9a2b-599d2a22e5d6-m.jpg");
+    
+}
+.item .img-item17{
+    background-image: url("https://i.docln.net/lightnovel/covers/b12293-bf0be5b8-427d-4b2c-a4a5-f7ddb74a595c-m.jpg");
+    
+}
+.item .img-item18{
+    background-image: url("https://i.docln.net/lightnovel/covers/s1028-11db69ed-ae86-4c21-a2ac-cfdda42f5ecc-m.jpg");
+    
+}
+.item .img-item19{
+    background-image: url("https://2.bp.blogspot.com/-zrU_GR-h_TQ/WO2wUK9objI/AAAAAAAAKKs/M7YjN-Uq-Oo/w215/series_592.jpg");
+    
+}
+.item .img-item20{
+    background-image: url("https://i.docln.net/lightnovel/covers/s7474-a417dc26-03a2-4e83-8510-267ace427ec7-m.jpg");
+    
+}
+.item .img-item21{
+    background-image: url("https://i.docln.net/lightnovel/covers/s6640-0ec29894-cc4e-4386-a203-89cdb86ecbee-m.jpg");
+    
+}
+.item .img-item22{
+    background-image: url("	https://i.docln.net/lightnovel/covers/s8534-a6e8cf5e-1cc5-4960-8d8d-6d377b6af8de-m.jpg");
+    
+}
+.item .img-item23{
+    background-image: url("https://i.docln.net/lightnovel/covers/s7695-d03b8714-fba7-454e-89ae-6a602cd024db-m.jpg");
+    
+}
+.item .new-item{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 145px;
+    height: 190px;
+}
+.item .name{
+    bottom: 0;
+    position: absolute;
+    width: 190px;
+    height: 250px;
+    box-shadow: 0px -60px 35px rgba(0, 0, 0,0.8) inset;
+}
+.content-list-2 .item .name{
+    bottom: 0;
+    position: absolute;
+    width: 145px;
+    height: 190px;
+    box-shadow: 0px -60px 35px rgba(0, 0, 0,0.8) inset;
+}
+
+.item .name a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    color: #DDD;
+}
+.item .name a:hover{
+    color: rgb(4, 150, 4);
+}
+
+.main-right{
+    float: right;
+    width: 27%;
+    height: 610px;
+    background-color: #ebebec;
+    
+}
+
+.list-name{
+    text-align: left;
+    background-color: #f0bc00;
+    height: 30px;
+    margin-left: -2px;
+    padding-top: 7px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.list-name h4{
+   margin-top: 3px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.list-item{
+    height: 130px;
+    background-color: rgb(251 252 252);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.list-item img{
+    float: left;
+    padding: 10px;
+    width: 70px;
+    height: 100px;
+}
+
+.list-item a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list-item p{
+    padding-top: 15px;
+    font-weight: 600;
+}
+.list-item a:hover{
+    color: rgb(4, 150, 4);
+}
+
+footer{
+    background-color: #333;
+    padding: 0 0 70px 0;
+    color: #f1efef;
+    padding-top: 10px;
+    height: auto;
+}
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 20px;
+}
+ul{
+    list-style: none;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: rgb(4, 150, 4);
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ede5e5;
+    box-sizing: border-box;
+    height: 2px;
+    width: 50px;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ebebec;
+    margin-right: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+}
+.footer-col .social-links a:hover{
+    color: rgb(8, 101, 8);
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 40%;
+        margin-bottom: 30px;
+    }   
+}
+@media(max-width: 600px){
+    .footer-col{
+        width: 100%;
+    }   
+}
+
+

@@ -1,0 +1,95 @@
+body{
+    overflow: hidden;
+    background-image: url("/img/669240.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.login{
+    border: 1px solid rgb(66, 65, 65);
+    border-radius: 5px;
+    max-width: 36%;
+    margin-top: 85px;
+    margin-left: 33%;
+    background-color:rgba(49, 48, 48, 0.6) ;
+}
+.container{
+    padding-right: 490px;
+}
+
+.panel-header{
+    background: rgb(233, 224, 224);
+    font-family: "Tahoma", "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+.panel-header{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(154, 153, 153);
+}
+.panel-body{
+    margin-left: 20px;
+    height: 250px;
+}
+
+.panel-body input{
+    display: block;
+    padding: 12px 10px;
+    border: 1px solid #dad8d3;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #ffffff;
+    width: 85%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.panel-body ::placeholder{
+    font-family: "Tahoma", "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.panel-body input:focus::placeholder{
+    color: white;
+}
+
+
+.panel-body .login-button{
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login-button{
+    font-family: "Tahoma", "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.login-button a .btn-login{
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(51 122 183);
+    color: rgb(253 252 241);
+    cursor: pointer;
+    border: none;
+} 
+.login-button a .btn-register{
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(217 83 79);
+    color: rgb(253 252 241);
+    cursor: pointer;
+    border: none;
+} 
+
+.panel-body .login-button a{
+    margin: 0;
+}
+.panel-body a{
+    text-decoration: none;
+    margin-left: 52px;
+    color: #ecf0f4;
+}
+.panel-body a:hover{
+    color:rgb(3, 23, 40) ;
+}

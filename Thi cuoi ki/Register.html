@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form/login.css">
+    <link rel="stylesheet" href="form/Home.css">
+    <link rel="stylesheet" href="form/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+                integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Đăng kí - Review Light Novel</title>
+</head>
+<body >    
+    <div class="header">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="Home.html"><img src="img/logo_trangchu.png" alt="" width="60px"></a></li>
+                <li><a class="nav-menu_item" href="Home.html">Trang Chủ</a></li>
+                <li><a class="nav-menu_item" href="Event.html">Sự kiện</a></li>
+                <li><a class="nav-menu_item" href="">Thảo Luận</a></li>
+                <li><a class="nav-menu_item" href="List.html">Danh Sách</a></li>
+                <li><a class="nav-menu_item" href="">Giới thiệu</a></li>
+                <li><a class="nav-menu_item" href="Login.html">Đăng nhập</a></li>
+            </ul>
+        </div>   
+    </div>
+
+    <div class="main">
+        <div class="login">
+            <div class="panel-header">
+                Đăng ký
+            </div>
+
+            <div class="panel-body">
+                <div class="item">    
+                    <input class="login-account" name="username" type="text" placeholder=" Tên đăng nhập ">
+                    <p></p>
+                </div>
+                <div class="item">
+                    <input class="login-account" name="email" type="text" placeholder=" Email">
+                    <p></p>
+                </div>
+                <div class="item">
+                    <input class="login-password" name="password" type="password" placeholder="Mật khẩu" >
+                    <p></p>
+                </div>    
+                <div class="item">
+                    <input class="register-password" type="password" placeholder="Xác nhận mật khẩu">
+                    <p></p>
+                </div>
+                <div class="login-button"> 
+                    <a><button type="button" class="btn-register" >Đăng kí</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="ok">
+            <h2>Đã đăng ký thành công</h2>
+            <i class="fa-solid fa-circle-check"></i><br>
+            <button id="btn">OK</button>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+</html>

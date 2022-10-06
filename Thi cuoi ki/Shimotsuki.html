@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form/Home.css">
+    <link rel="stylesheet" href="form/tenshi.css">
+    <link rel="stylesheet" href="tenshi.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+                integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Review Shimotsuki wa Mob ga Suki</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="Home.html"><img src="img/logo_trangchu.png" alt="" width="60px"></a></li>
+                <li><a class="nav-menu_item" href="Home.html">Trang Chủ</a></li>
+                <li><a class="nav-menu_item" href="Event.html">Sự kiện</a></li>
+                <li><a class="nav-menu_item" href="">Thảo Luận</a></li>
+                <li><a class="nav-menu_item" href="List.html">Danh Sách</a></li>
+                <li><a class="nav-menu_item" href="">Giới thiệu</a></li>
+                <li><a class="nav-menu_item" href="Login.html">Đăng nhập</a></li>
+            </ul>
+        </div>   
+        <div class="banner">
+            <img src="img/banner2.png" alt="" width="2000" height="180px">
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="main-left">
+            <div class="hot-content">
+                <ul class="content-1">
+                    <li id="top"><i class="fa-solid fa-trophy"></i> Review Sách</li>
+                </ul>
+            </div>
+            
+            <div class="content-list">
+                <div class="item">
+                    <img src="https://i.docln.net/lightnovel/covers/b17198-170f23c9-a0ae-4d24-afb1-48dd413a9568-m.jpg" alt="">
+                    <div class="book">    
+                        <h3>Shimotsuki wa Mob ga Suki</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        (Đánh giá)
+                        <div class="book-info">
+                            <div class="info-item"><b>Tác giả: </b></div>
+                            <div class="info-item"><b>Hoạ sĩ: </b></div>
+                            <div class="info-item"><b>Dịch giả: </b></div>
+                            <div class="info-item"><b>Số trang: </b></div>
+                            <div class="info-item"><b>Ngày phát hành: </b></div>
+                            <div class="info-item"><b>Giá: </b></div>
+                        </div> 
+                        <h4>Tóm tắt:  </h4>
+                    
+                        <p>Nếu đây là một bộ romcom thông thường, chắc tôi sẽ chỉ là một tên nhân vật làm nền không hơn không kém. <br>
+                            Đứa em kế, cô bạn thân, và cả bạn thuở nhỏ, giờ ai cũng say đắm cái tên nổi tiếng kia cả rồi. Không cần làm gì, chỉ thở thôi cũng được yêu mến, thản nhiên khiến những người con gái quan trọng với tôi rơi vào harem, tên nhân vật chính
+                             đó giờ đang vui vẻ tận hưởng tuổi thanh xuân của mình. <br> <br>
+                            Như một nhân vật phụ, đáng lẽ tôi chỉ có thể ngồi ở xó lớp mà quan sát nhân vật chính từ xa... vậy mà, cô ấy đã phát hiện ra tôi. <br>                            
+                            Bất kể có là bạn thuở nhỏ của nhân vật chính, thân phận như là nữ chính, cô ấy vẫn chọn tôi. Bình thường im lìm không nói gì, biểu cảm cũng không có,
+                             thế mà chỉ với tôi thì cô cười nói luôn miệng... <br>                           
+                            </p>
+                    </div>   
+                </div>
+            </div>
+            
+            <div class="content-list">
+                <div class="item">
+                    <div class="comment">
+                        Bình luận của độc giả<br>
+                        <textarea name="" id="text" cols="105" rows="7" placeholder="Để lại cảm nhận của bạn..."></textarea>
+                        <div class="btn-comment">
+                            <button onclick="cmtLoop(this)">Đăng bình luận</button>
+                        </div>
+
+                        <div class="comment-area">
+                            <div class="comment-info">
+                                <div class="user-icon"><i class="fa-solid fa-user-tie"></i></div>
+                                
+                                <div class="comment-text">
+                                    <h6>Độc giả</h6>
+                                    <p class="cmt"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+        </div>
+
+        <div class="main-right">
+
+            <div class="sort">
+                <div class="list-name">
+                    <h4>Các bài viết được đọc nhiều</h4>
+                </div>
+
+                <div class="">
+                    <div class="list-item">
+                        <img src="img/Image_event_7.jpg" width="30%">
+                        <a href=""><p>51 quán cafe yên tĩnh giữa lòng Hà Nội dành cho...</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_8.jpg" width="30%">
+                        <a href=""><p>4 Tips Cần Nhớ Để Có Một Bài Review Sách Xuất Sắc</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_9.jpg" width="30%">
+                        <a href=""><p>Công bố top 40 cuốn sách hay nhất dành cho thiếu nhi</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_10.jpg" width="30%">
+                        <a href=""><p>10 QUÁN CAFE SÁCH NHẤT ĐỊNH PHẢI GHÉ Ở SÀI GÒN</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_11.jpg" width="30%">
+                        <a href=""><p>Kinh nghiệm chọn mua và 20 mẫu kệ sách được yêu...</p></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="sort2">
+                <div class="list-name">
+                    <h4>Hội sách - Triển lãm</h4>
+                </div>
+
+                <div class="">
+                    <div class="list-item">
+                        <img src="img/Image_event_12.jpg" width="30%">
+                        <a href=""><p>Hội sách trực tuyến quốc gia 2021</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_13.jpg" width="30%">
+                        <a href=""><p>[Hà Nội] Hội sách từ ngày 05/04/2021 đến ngày 18/04/2021</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_15.jpg" width="30%">
+                        <a href=""><p>Hội sách Khuyến Học 2022 - Lần thứ I</p></a>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/Image_event_14.jpg" width="30%">
+                        <a href=""><p>Hội sách Nhã Nam từ ngày 14/1 - 17/1/2021</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tenshi.js"></script>
+</body>
+</html>
